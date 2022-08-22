@@ -7,7 +7,31 @@
     <title>Document</title>
     <style>
         body{
-            font-family: Courier;
+            font-family: 'work sans';
+            /* medidas absolutas:
+            cm, mm, in, px, pt, pc
+
+            medidas relativas:
+            em, ex, rem, vw, vh, %*/
+            font-size: 1em;
+            font-weight: normal;
+            font-style: normal; 
+            text-decoration: underline;
+            /* Lighter, normal, bold, bolder */
+        }
+
+        h1 {
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* Shorthand: font 
+            font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
         }
     </style>
 </head>
