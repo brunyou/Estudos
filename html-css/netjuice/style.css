@@ -1,12 +1,86 @@
 @charset "UTF-8";
 
-body {
-    text-align: center;
-    background-color: rgb(174, 174, 174);
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root{
+   --fonte_destaque:'Rubik', sans-serif;
+   --font_padrao: Arial, Helvetica, sans-serif;
+
+   --cor0: #45cdff;
+   --cor1: #faca3c;
+   --cor2: #ffa73c;
+   --cor3: #fc713e;
+   --cor4: #ff5d4e;
 }
 
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 10px 4px rgba(0, 0, 0, 0.219);
+    background-image: linear-gradient(to right,var(--cor0),var(--cor2), var(--cor4));
+
+   
+}
+header nav{
+    margin: 0 10px;
+}
+
+header>nav>a{
+    text-decoration: none;
+    font-family: var(--fonte_destaque);
+    color: white;
+    padding: 0px 4px 0px 4px;
+    margin: 10px;
+    transition-duration: 0.3s;
+}
+header>nav>a:hover {
+    color: var(--cor3);
+    background-color: white;
+    border-radius: 5px;
+}
+div#logo{
+    display: flex;
+    align-items: center;
+  
+  
+}
+div#logo img{
+    padding-left: 5px;
+    
+    width: 30px;
+    height: 30px;
+}
+
+div#logo h1{
+    display: inline-block;
+    font-family: var(--fonte_destaque);
+    font-style: normal;
+    outline: 2px;
+    color: white;
+    outline-color: black;
+    margin: 0px;
+}
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+}
+
+body > main{
+    text-align: center;
+}
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-style: italic;
     outline: 2px;
     color: rgb(rgb(255, 221, 0), green, blue);
