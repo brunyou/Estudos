@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="netjuice_favicon3.png" type="image/x-icon">
-    <title>net juice</title>
+    <title>Bruno Pereira</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
         </div> 
         <nav >
             <a href="#"> Início </a>
-            <a href="#"> Sobre </a>
+            <a href="#sobre"> Sobre </a>
             <a href="#"> Portifólio </a>
             <a href="#"> Contato </a>
         </nav>
@@ -26,13 +26,18 @@
         <div id="home" >
             <h1 class="animated-title" >Impressões importam.</h1>
             <h2>E elas não resumem em ser mais <span id="serio">sério</span> ou <span class="grow-on-hover">dinâmico</span>.</h2>
+            <button>
+              Explore!
+            </button>
+        
         </div>
+        <div id="sobre">
+          <h1> Quem é Bruno?</h1>
+
+        </div> 
 
 
 
-        <button>
-          Explore!
-        </button>
     </main>
 
 </body>
@@ -49,6 +54,27 @@ window.onscroll = function() {
 }
 
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.smooth-scroll');
+
+    links.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                const offsetTop = targetElement.offsetTop;
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth' // Rola suavemente
+                });
+            }
+        });
+    });
+});
 </script>
 
 </html>
