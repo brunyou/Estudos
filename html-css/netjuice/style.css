@@ -62,7 +62,7 @@ div#logo h1 {
 
 header nav {
     top: 3%;
-    left: 50%;
+ margin-left: 32%;
   display: inline-block;
   border-bottom: 3%;
 
