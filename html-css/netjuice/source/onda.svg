@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1600" height="198" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:guide x="595.1219210171623" y="87.80448451051136" angle="0"/>
+  </defs>
+  <path fill-rule="evenodd" d="M 0.005 78.084 C 311 78.084 409.898 198.247 811 198 C 1211 198 1311 78.084 1600 78.084 L 1600 1.773 L 0 1.773 C 0 1.773 0.005 49.343 0.005 78.084 Z" style="transform-box: fill-box; transform-origin: 50% 50%; fill: rgb(0, 153, 255);" transform="matrix(-1, 0, 0, -1, 0.000027, 0.000003)"/>
+</svg>
