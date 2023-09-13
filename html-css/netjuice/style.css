@@ -204,7 +204,7 @@ button:hover {
     margin: 0;
     padding:20px;
 }
-.card_content>p{
+.card_content>p, .teste>p{
     font-family: var(--fonte_destaque);
     color: white;
     font-size: large;
@@ -263,7 +263,8 @@ button:hover {
 .card{
     height: 400px;
     width: 300px;
-    background-image:linear-gradient(to right,var(--cor2), var(--cor4));
+    background-color: #007bce;
+
     margin: 3%;
     border-radius: 20px;
     display: flex;
@@ -271,13 +272,21 @@ button:hover {
     cursor: pointer;
     position: relative;
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; /* Adiciona uma transição suave */
+    transition: all 0.3s;
 }
 
+.card:hover{
+    transform: scale(1.2) ;
+    background-image:linear-gradient(to right,var(--cor2), var(--cor4));
+}
 
-
-.card > h1{
+.card_content> h1{
     color: white;
 }
+
+
+
 
 .material-symbols-outlined {
     vertical-align: middle;
