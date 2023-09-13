@@ -115,7 +115,7 @@ border: 0;
 div#home{
     display: block;
     width: 100%;
-    height:100%;
+    height:95vh;
  
 }
 
@@ -133,6 +133,7 @@ div#home > h2 {
     padding-left: 100px;
     font-size: 2em;
     text-align: left;
+   
 }
 
 div#servicos{
@@ -141,6 +142,7 @@ div#servicos{
 
 div#servicos_conteudo{
     display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
     background-color: #0099ff;
@@ -179,14 +181,20 @@ span#serio:hover {
 }
 
 button{
-    margin-top: 50px;
-    margin: auto;
+    margin-top: 20px;
     border: none;
-    padding: 7px;
+    padding: 10px;
     border-radius: 7px;
     font-family: var(--fonte_destaque);
-    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    background-color: gray;
+    transition: all 0.3s;
+}
 
+button:hover {
+    transform: scale(1.2);
+    background-image:linear-gradient(to right,var(--cor2), var(--cor4));
 }
 
 
@@ -259,7 +267,13 @@ button{
     margin: 3%;
     border-radius: 20px;
     display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }
+
+
 
 .card > h1{
     color: white;
