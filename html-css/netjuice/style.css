@@ -149,10 +149,11 @@ div#servicos_conteudo{
 }
 
 div#servicos>h1{
-    text-align: left;
+    text-align: center;
     color: white;
     margin: 0;
     padding:20px;
+    font-size: 60px;
 }
 
 
