@@ -221,7 +221,7 @@ button:hover {
     height: 5%;
     width:100%;
     position:absolute;
-    bottom:-10;
+    bottom:0;
     left:0;
     background: #0099ff;
     z-index: 1;
