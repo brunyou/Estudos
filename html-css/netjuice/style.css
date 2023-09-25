@@ -41,7 +41,9 @@ a{
     font-family: var(--fonte_destaque);
     color: white; 
     margin-bottom: 0;
+    scroll-behavior: smooth;
 }
+
 
 div#logo {
     height: 20px;
@@ -138,14 +140,19 @@ div#home > h2 {
 
 div#servicos{
     background-color: #0099ff;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
 }
 
 div#servicos_conteudo{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: #0099ff;
+    margin-top: 5%;
 }
 
 div#servicos>h1{
@@ -164,6 +171,13 @@ span{
 span#serio:hover {
     color:#45cdff;
 }
+
+div#sobre{
+    width: 100%;
+    height: 99vh;
+}
+
+
 
 .grow-on-hover {
     display: inline-block; /* Garante que o span não quebre a linha */
@@ -204,6 +218,7 @@ button:hover {
     color: white;
     margin: 0;
     padding:20px;
+    
 }
 .card_content>p, .teste>p{
     font-family: var(--fonte_destaque);
@@ -266,7 +281,8 @@ button:hover {
     width: 300px;
     background-color: #007bce;
 
-    margin: 3%;
+    margin: 5%;
+    margin-bottom: 15%;
     border-radius: 20px;
     display: flex;
     overflow: hidden;
@@ -280,12 +296,17 @@ button:hover {
 .card:hover{
     transform: scale(1.2) ;
     background-image:linear-gradient(to right,var(--cor2), var(--cor4));
+    z-index: 1;
 }
 
 .card_content> h1{
     color: white;
 }
 
+
+.crescer-no-centro {
+    transition: all 0.3s ease;
+}
 
 
 
