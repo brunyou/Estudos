@@ -240,6 +240,7 @@ button:hover {
     left:0;
     background: #0099ff;
     z-index: 1;
+    overflow: hidden;
   }
   
   .wave {
