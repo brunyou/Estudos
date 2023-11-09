@@ -45,12 +45,7 @@ a{
 }
 
 
-div#logo {
-    height: 20px;
-    margin-right: auto;
-    display: inline;
-    align-items: center;
-}
+
 
 div#logo img {
     display: inline;
@@ -73,7 +68,6 @@ div#logo h1 {
 
 header nav {
     top: 3%;
- margin-left: 32%;
   display: inline-block;
   border-bottom: 3%;
 
