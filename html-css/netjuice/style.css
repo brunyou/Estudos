@@ -236,10 +236,10 @@ button:hover {
     height: 5%;
     width:100%;
     position:absolute;
-    bottom:0;
+    bottom:-1;
     left:0;
     background: #0099ff;
-    z-index: 1;
+    z-index: -1;
     object-fit: cover;
   }
   
@@ -307,6 +307,7 @@ button:hover {
 
 .crescer-no-centro {
     transition: all 0.3s ease;
+
 }
 
 
@@ -319,3 +320,7 @@ button:hover {
     width: 100%;
     overflow: hidden;
   }
+
+  .card.centro {
+    background-image:linear-gradient(to bottom,var(--cor2), var(--cor4));
+}

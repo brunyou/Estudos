@@ -153,20 +153,22 @@ window.addEventListener('scroll', function() {
                 divCrescente = div;
             } else {
                 div.style.transform = 'scale(1)';
+                div.classList.remove('centro'); // Remover a classe 'centro' quando não estiver no centro
             }
         });
 
-        // Aplique o crescimento apenas à div no centro
+        // Aplique o crescimento e adicione a classe 'centro' apenas à div no centro
         if (divCrescente) {
             divCrescente.style.transform = 'scale(1.2)';
-            
+            divCrescente.classList.add('centro');
         }
     } else {
         // Se a tela for maior que 768px, mantenha o efeito hover original
         const divs = document.querySelectorAll('.card');
         divs.forEach(function(div) {
+            div.classList.remove('centro'); // Remover a classe 'centro' em telas maiores
             div.addEventListener('mouseenter', function() {
-                div.style.transform = 'scale(1.2) ';
+                div.style.transform = 'scale(1.2)';
             });
 
             div.addEventListener('mouseleave', function() {
@@ -175,6 +177,7 @@ window.addEventListener('scroll', function() {
         });
     }
 });
+
 
 </script>
 
