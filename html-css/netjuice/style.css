@@ -328,7 +328,7 @@ use{
     background-image:linear-gradient(to bottom,var(--cor2), var(--cor4));
 }
 
-.wrapper{
+#wrapper{
     width: 100%;
     position: absolute;
     bottom: 0;
