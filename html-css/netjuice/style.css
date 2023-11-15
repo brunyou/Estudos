@@ -200,6 +200,7 @@ button{
     color: white;
     background-color: rgb(182, 182, 182);
     transition: all 0.3s;
+    display: none;
 }
 
 button:hover {
