@@ -248,8 +248,12 @@ button:hover {
     text-align:center;
     background-color: white;
   }
+use{
+    position: absolute;
+    bottom: 0;
+}
+
   /* Animation */
-  
   .parallax > use {
     animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
   }
@@ -277,19 +281,7 @@ button:hover {
       transform: translate3d(85px,0,0);
     }
   }
-  /*Shrinking for mobile*/
-  @media (max-width: 768px) {
-    .waves {
-      height:40px;
-      min-height:40px;
-    }
-    .content {
-      height:30vh;
-    }
-    h1 {
-      font-size:24px;
-    }
-  }
+
 
 .card{
     height: 400px;
@@ -340,3 +332,4 @@ button:hover {
     position: absolute;
     bottom: 0;
 }
+
