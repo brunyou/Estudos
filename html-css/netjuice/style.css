@@ -47,12 +47,6 @@ a{
 
 
 
-div#logo img {
-    display: inline;
-    margin-top: 5px;
-    width: 30px;
-    height: 30px;
-}
 
 div#logo h1 {
     font-family: var(--fonte_destaque);
@@ -331,6 +325,7 @@ use{
 #wrapper{
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: -3px;
+    
 }
 
