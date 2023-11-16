@@ -12,7 +12,7 @@ const listaDeDestinos = new Array(
 const idadeComprador = 18;
 const estaAcompanhada = false;
 let temPassagemComprada = false;
-const destino = "Itajaí";
+const destino = "Salvador";
 
 
 console.log("Destinos possíveis:");
@@ -27,7 +27,6 @@ let destinoExiste = false;
 
 while(contador <= 4){
     if(listaDeDestinos[contador] == destino){
-        console.log("Destino existe");
         destinoExiste = true;
         break
     }

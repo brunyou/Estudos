@@ -17,3 +17,9 @@ listaDeDestinos.push('Cuiabá') //Adicionando um item na lista
 console.log("Destinos possíveis:");
 console.log(listaDeDestinos);
 //console.log(salvador, saoPaulo, rioDeJaneiro);
+
+listaDeDestinos.splice(1,1)
+console.log("Destinos possíveis:");
+console.log(listaDeDestinos);
+
+console.log(listaDeDestinos[1]);
