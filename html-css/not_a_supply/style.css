@@ -80,7 +80,7 @@ header > nav > a {
 }
 
 header > nav > a:hover {
-    color: var(--cor3);
+    color: rgb(58, 58, 58);
     background-color: white;
     border-radius: 5px;
     font-weight: bold;
@@ -107,7 +107,7 @@ border: 0;
 div#home{
     display: block;
     width: 100%;
-    height:95vh;
+    height:90vh;
  
 }
 
@@ -329,3 +329,7 @@ use{
     
 }
 
+
+footer>p, footer>a{
+    font-family: var(--fonte_destaque);
+}
