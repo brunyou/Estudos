@@ -1,6 +1,11 @@
+import './Banner.css'
+
 function Banner() {
     return (
-        <img src
+        //JSX
+        <header className="banner"> 
+        <img src="imagens/imagens/Banner.png" alt="Banner principal organo"/>
+        </header>
     )
 }
 
