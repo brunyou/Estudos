@@ -1,0 +1,6 @@
+@import url(../../App.css);
+
+.navbar{
+    width: 100%;
+    background-image: linear-gradient(to right,#ffa73c, #ff5d4e);
+}
