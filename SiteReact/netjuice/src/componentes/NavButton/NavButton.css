@@ -1,0 +1,14 @@
+.navbutton {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.navbutton:hover{
+    margin: 10px;
+    background-color: white;
+    color: #ff5d4e;
+    border-radius: 10px;
+}
