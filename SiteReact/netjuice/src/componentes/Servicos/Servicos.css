@@ -1,0 +1,9 @@
+section.servicos{
+    background-color: #ff0000;
+    width: 100vh;
+    height: 100vh;
+    display: flexbox;
+}
+.servicos h1{
+    padding-top: 100px;
+}
