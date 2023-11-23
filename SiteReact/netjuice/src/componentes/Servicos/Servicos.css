@@ -1,9 +1,24 @@
 section.servicos{
-    background-color: #ff0000;
-    width: 100vh;
-    height: 100vh;
-    display: flexbox;
+    background-color: #0099ff;
+    width: 100%;
+    height: 95vh;
+    align-content: center;
 }
-.servicos h1{
-    padding-top: 100px;
+
+section.servicos_conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #0099ff;
+    margin-top: 5%;
+}
+
+section.servicos>h1{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    padding:20px;
+    font-size: 60px;
 }

@@ -7,8 +7,8 @@ import Servicos from './componentes/Servicos';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <Home/>
+      <NavBar className='navbar'/>
+      <Home className='home'/>
       <Servicos/>
     </div>
   );

@@ -6,4 +6,15 @@
 a, h1, h2 {
   font-family: 'Rubik', sans-serif;
 }
+.App{
+  height: 100%;
+  width: 100%;
+}
+.navbar{
+  z-index: 3;
+}
 
+.home{
+  height: 100%;
+  width: 100%;
+}

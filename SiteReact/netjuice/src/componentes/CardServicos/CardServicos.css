@@ -1,0 +1,51 @@
+:root{
+    --fonte_destaque:'Rubik', sans-serif;
+    --font_padrao: Arial, Helvetica, sans-serif;
+ 
+    --cor0: #45cdff;
+    --cor1: #faca3c;
+    --cor2: #ffa73c;
+    --cor3: #fc713e;
+    --cor4: #ff5d4e;
+ }
+
+div.card{
+    height: 400px;
+    width: 300px;
+    background-color: #007bce;
+
+    margin: 3%;
+    margin-bottom: 15%;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; 
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.2) ;
+    background-image:linear-gradient(to right,var(--cor2), var(--cor4));
+    z-index: 1;
+}
+
+.card_content> h1{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding:20px;
+    
+}
+.card_content>p, .teste>p{
+    font-family: var(--fonte_destaque);
+    color: white;
+    font-size: large;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin: 4%;
+}
