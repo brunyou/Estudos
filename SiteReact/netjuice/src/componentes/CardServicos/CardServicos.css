@@ -38,6 +38,7 @@ div.card{
     margin: 0;
     padding:20px;
     
+    
 }
 .card_content>p, .teste>p{
     font-family: var(--fonte_destaque);
@@ -48,4 +49,5 @@ div.card{
     flex-direction: column;
     justify-content:space-between;
     margin: 4%;
+    text-align: center;
 }
