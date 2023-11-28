@@ -9,6 +9,11 @@
     --cor4: #ff5d4e;
  }
 
+p{
+    font-family: var(--fonte_destaque);
+    color: white;
+}
+
 div.card{
     height: 400px;
     width: 300px;
@@ -40,14 +45,31 @@ div.card{
     
     
 }
-.card_content>p, .teste>p{
-    font-family: var(--fonte_destaque);
-    color: white;
+.card_content>p#info{
     font-size: large;
-    height: 60%;
+    
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     margin: 4%;
     text-align: center;
+    margin-top: 20%;
+    display: block;
 }
+
+p#uplink {
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+  }
+
+  .centro{
+    background-image:linear-gradient(to right,var(--cor2), var(--cor4));
+  }
