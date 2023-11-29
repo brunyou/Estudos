@@ -1,8 +1,8 @@
 import Wave from 'react-wavify'
 
-const Onda = () => {
+const Onda = (props) => {
     return (
-        <Wave fill='#0099ff'
+        <Wave fill={props.cor}
         paused={false}
         style={{ display: 'flex' }}
         options={{
