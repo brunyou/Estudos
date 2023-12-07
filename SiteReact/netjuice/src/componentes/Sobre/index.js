@@ -1,3 +1,4 @@
+
 import './Sobre.css'
 
 const Sobre = () => {
@@ -11,6 +12,7 @@ const Sobre = () => {
                         já trabalho a mais de 2 anos com Banco de Dados e relatórios, já atuei auxiliando um projeto com o B.I. e atualmente estou me aprimorando em desenvolvimento WEB,
                         fora o conhecimento em informática que desde pequeno estou envolvido caso precise de formatar ou alguma manutenção de rotina na sua máquina.
                     </p>
+                    
                 </section>
             </section>
         )

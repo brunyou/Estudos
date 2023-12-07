@@ -1,5 +1,6 @@
 
 import './App.css';
+import Contato from './componentes/Contato';
 import Home from './componentes/Home';
 import NavBar from './componentes/NavBar';
 import Servicos from './componentes/Servicos';
@@ -12,6 +13,7 @@ function App() {
       <Home className='home'/>
       <Servicos/>
       <Sobre/>
+      <Contato/>
     </div>
   );
 }
