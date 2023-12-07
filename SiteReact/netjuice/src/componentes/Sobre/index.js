@@ -4,7 +4,7 @@ const Sobre = () => {
 
     return(
         <section className='sobre'>
-            <h1>Sobre</h1>
+            <h1 id='titulo'>Sobre</h1>
                 <section className='info'>
                     <h1> Prazer, me chamo Bruno</h1>
                     <p>Estou me formando em Ciências da Computação e ao longo desses anos imerso na área de tecnologia adiquiri alguns conhecimentos que podem te ajudar de alguma forma,
