@@ -1,0 +1,14 @@
+section.contato{
+    width: 100%;
+    height: 100vh;
+    background-color: #0099ff;
+}
+
+section.contato>h1{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    padding:20px;
+    font-size: 60px;
+    padding-top: 100px;
+}
