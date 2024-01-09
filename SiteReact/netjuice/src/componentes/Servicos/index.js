@@ -4,7 +4,7 @@ import Onda from "../Onda"
 
 const Servicos = () => {
     return(
-        <section className="servicos">
+        <section id='servicos' className="servicos">
                 <h1>Serviços</h1>
                 <section className="servicos_conteudo">
                     <CardServicos 

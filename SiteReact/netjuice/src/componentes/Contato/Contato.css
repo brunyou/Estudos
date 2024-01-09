@@ -1,14 +1,46 @@
-section.contato{
+.contato {
+    background-color: #0076c5;
+    height: 100%;
     width: 100%;
-    height: 100vh;
-    background-color: #0099ff;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 100px;
 }
 
-section.contato>h1{
+#titulo{
     text-align: center;
     color: white;
     margin-top: 0;
     padding:20px;
     font-size: 60px;
-    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.contato h1{
+    padding-top: 6%;
+    color: #FFFF;
+    margin: 0 20px;
+    
+}
+
+.info p{
+    margin: 0 20px;
+}
+
+
+
+section.info{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='500' height='600' preserveAspectRatio='none' viewBox='0 0 500 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1026%26quot%3b)' fill='none'%3e%3crect width='500' height='600' x='0' y='0' fill='rgba(1%2c 122%2c 202%2c 1)'%3e%3c/rect%3e%3cpath d='M73.874%2c278.82C121.16%2c278.642%2c168.518%2c259.307%2c191.384%2c217.917C213.637%2c177.637%2c200.811%2c129.919%2c178.311%2c89.776C155.169%2c48.488%2c121.205%2c8.072%2c73.874%2c8.262C26.762%2c8.451%2c-5.932%2c49.598%2c-29.121%2c90.608C-51.84%2c130.788%2c-67.332%2c178.313%2c-45.174%2c218.805C-22.309%2c260.589%2c26.243%2c278.999%2c73.874%2c278.82' fill='rgba(0%2c 169%2c 255%2c 0.6)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M520.463%2c544.701C561.991%2c542.616%2c598.371%2c518.917%2c619.047%2c482.842C639.602%2c446.979%2c641.659%2c403.656%2c622.206%2c367.184C601.521%2c328.402%2c564.395%2c299.407%2c520.463%2c298.011C474.194%2c296.54%2c430.675%2c320.639%2c406.864%2c360.338C382.349%2c401.21%2c378.095%2c453.111%2c403.097%2c493.687C427.081%2c532.612%2c474.8%2c546.994%2c520.463%2c544.701' fill='rgba(0%2c 169%2c 255%2c 0.6)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M421.379%2c609.504C441.293%2c608.812%2c459.176%2c598.762%2c469.872%2c581.95C481.513%2c563.653%2c486.776%2c541.176%2c477.243%2c521.698C466.558%2c499.864%2c445.687%2c483.012%2c421.379%2c482.861C396.853%2c482.709%2c375.831%2c499.351%2c364.298%2c520.996C353.448%2c541.36%2c354.165%2c566.147%2c366.671%2c585.538C378.236%2c603.47%2c400.054%2c610.245%2c421.379%2c609.504' fill='rgba(0%2c 169%2c 255%2c 0.6)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M260.657%2c539.946C274.519%2c539.025%2c286.159%2c530.609%2c293.172%2c518.616C300.263%2c506.49%2c303.114%2c491.551%2c296.06%2c479.404C289.031%2c467.3%2c274.654%2c462.567%2c260.657%2c462.625C246.778%2c462.683%2c233.509%2c468.181%2c225.76%2c479.695C216.939%2c492.801%2c211.772%2c509.826%2c219.69%2c523.496C227.595%2c537.144%2c244.92%2c540.991%2c260.657%2c539.946' fill='rgba(0%2c 169%2c 255%2c 0.6)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M259.712%2c302.382C295.919%2c303.632%2c332.507%2c291.148%2c352.162%2c260.714C373.487%2c227.695%2c378.815%2c183.912%2c357.594%2c150.826C337.592%2c119.641%2c296.756%2c117.176%2c259.712%2c116.575C221.106%2c115.949%2c175.889%2c114.362%2c156.174%2c147.56C136.241%2c181.126%2c155.989%2c222.241%2c177.691%2c254.692C196.534%2c282.868%2c225.836%2c301.213%2c259.712%2c302.382' fill='rgba(0%2c 169%2c 255%2c 0.6)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1026'%3e%3crect width='500' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 3s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 2s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 3s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    max-width: 500px;
+    height: 600px;
+    max-height: 600px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
+    text-align: justify;
+    margin: auto; 
+}
+
+section.onda{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
 }

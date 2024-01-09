@@ -5,10 +5,9 @@ import NavButton from '../NavButton'
 const NavBar = () => {
     return(
         <div className = 'navbar'>
-            <NavButton href='#' nome='Home'/>
-            <NavButton href='#' nome='Serviços'/>
-            <NavButton href='#' nome='Sobre'/>
-            <NavButton href='#' nome='Contato'/>
+            <NavButton href='#home' nome='Home'/>
+            <NavButton href='#servicos' nome='Serviços'/>
+            <NavButton href='#contato' nome='Contato'/>
         </div>
     )
 }
