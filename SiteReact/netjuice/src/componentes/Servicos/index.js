@@ -19,8 +19,9 @@ const Servicos = () => {
                      <CardServicos 
                     titulo="DBA/BI" 
                     descricao="Já tem um banco de dados e gostaria de análises e relatórios do seu negócio."/>
-                   <Onda id='onda' cor='#0076c5'/>
+                   
                 </section>
+                <Onda id='onda' cor='#0076c5'/>
             </section>
     )
 }
