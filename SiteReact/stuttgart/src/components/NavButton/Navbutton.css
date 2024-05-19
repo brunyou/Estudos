@@ -1,0 +1,9 @@
+.navbutton {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+}
