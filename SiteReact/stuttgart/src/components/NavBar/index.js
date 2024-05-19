@@ -11,7 +11,7 @@ const NavBar = () => {
                 <NavButton href='#' nome='SERVIÇOS'/>
                 <NavButton href='#' nome='CONTATOS'/>
             </section>
-            <div></div>
+            
         </div>
     )
 }

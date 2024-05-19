@@ -1,9 +1,14 @@
-.navbutton {
-    padding: 10px;
+a.navbutton {
     text-decoration: none;
     color: white;
     font-weight: bold;
     transition: 0.5s;
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbutton:hover{
+    color: #191D21;
+    background-color: white;
 }
