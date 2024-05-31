@@ -10,7 +10,9 @@ nav{
     background-color: #191D21;
     position: fixed;
     width: 100%;
-    
+    -webkit-box-shadow: 0px 18px 52px 0px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 18px 52px 0px rgba(0,0,0,0.56);
+    box-shadow: 0px 18px 52px 0px rgba(0,0,0,0.56);
 }
 
 nav>#logo>img{
