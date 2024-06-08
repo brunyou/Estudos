@@ -8,11 +8,11 @@ section#home{
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
+
 section#home>h1{
-    margin-top: 0;
+    margin-top: 100px;
     backdrop-filter: none;
     color: white;
 }
@@ -21,7 +21,7 @@ section#home>p{
     color: white;
     font-size: 1.5em;
     max-width: 1000px;
-    margin: auto;
+   margin:1em auto;
 }
 div.componenteGrande{
 background-color: rgba(255, 255, 255, 0.301);
@@ -49,8 +49,16 @@ div.empty{
     width: 10px;
     height: 10px;
 }
+div.logos{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+div.logos>img{
+    width: 100px;
+}
  
-@media (max-width: 890px) {
+@media (max-width: 1390px) {
     div.componenteReduzido{
         display: flex;
         transform: translate(33px)

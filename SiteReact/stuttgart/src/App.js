@@ -10,7 +10,6 @@ function App() {
     <div className="App">
     <NavBar id='navbar'/>
     <Home/>
-    <Servicos/>
   
     </div>
   );

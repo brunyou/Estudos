@@ -1,29 +1,40 @@
 section.servicos{
     margin-top: 3em;
-    height: 100%;
     width: 100%;
-    background-color: #323A42;
+    max-width: 1400px;
+    margin: auto;
+    backdrop-filter: blur(5px);
+    border-radius: 2em;
+    background-color: #0000004d;
 }
 
-section>h1{
+section.servicos>h1{
     font-size: 2em;
     color: white;
+}
+
+div.card>p{
+    color: white;
+    font-weight: bolder;
+    margin: 1em 2em;
 }
 
 div#servicos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 3em;
+    
 }
 
 div.card{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    width: 300px;
-    background-color: #0099ff;
-    height: 60px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px;
 
 }
+
+div.container{
+    display: none;
+}
+
