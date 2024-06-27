@@ -52,10 +52,15 @@ div.empty{
 div.logos{
     display: flex;
     justify-content: center;
-    gap: 3em;
+    gap: 2em;
+    padding: 3em;
 }
 div.logos>img{
     width: 100px;
+    align-self: flex-end;
+}
+div.logos>img.mercedes{
+    margin: 2em;
 }
  
 @media (max-width: 1390px) {

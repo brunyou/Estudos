@@ -7,7 +7,7 @@ import bmwLogo from "../../img/bmw2.png"
 import mercedesLogo from "../../img/mercedes2.png"
 import porscheLogo from "../../img/porsche2.png"
 import Servicos from "../Servicos"
-import Entrada from "../../img/entrada.jpeg"
+// import Entrada from "../../img/entrada.jpeg"
 
 
 
@@ -20,8 +20,8 @@ return (
       <p>Assistência técnica especializada em carros importados como <strong>Mercedes-Benz, Porshe e BMW.</strong></p>
           
           <div className="logos">
-          <img src= {mercedesLogo} alt="mercedes logo"></img>
           <img src= {porscheLogo} alt="porsche logo"></img>
+          <img className="mercedes" src= {mercedesLogo} alt="mercedes logo"></img>
           <img src= {bmwLogo} alt="bmw logo" ></img>
           </div>
           <Servicos/>
