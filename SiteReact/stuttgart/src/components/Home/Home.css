@@ -52,11 +52,12 @@ div.empty{
 div.logos{
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 2rem;
     padding: 3em;
+    max-width: 100%;
 }
 div.logos>img{
-    width: 100px;
+    max-width: 100px;
     align-self: flex-end;
 }
 div.logos>img.mercedes{
@@ -78,4 +79,18 @@ div.logos>img.mercedes{
         justify-content: space-between;
     }
 
+
+}
+
+@media (max-width: 440px){
+    div.logos{
+        scale: 0.8;
+    }
+    section#home>h1{
+        scale: 0.8;
+    }
+
+    section#home>p{
+        scale: 0.8;
+    }
 }

@@ -9,7 +9,7 @@ function App() {
     <div className="App">
     <NavBar id='navbar'/>
     <Home/>
-    <Carousel data={slides} />
+    <Carousel />
   
   
     </div>

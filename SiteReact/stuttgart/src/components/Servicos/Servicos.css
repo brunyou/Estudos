@@ -6,6 +6,7 @@ section.servicos{
     backdrop-filter: blur(5px);
     border-radius: 2em;
     background-color: #0000004d;
+    
 }
 
 section.servicos>h1{
@@ -37,5 +38,14 @@ div.card{
 
 div.container{
     display: none;
+}
+
+@media (max-width: 440px){
+    section.servicos{
+        scale: 0.8;
+    }
+    div.card{
+        margin: 0.5rem;
+    }
 }
 
