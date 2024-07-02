@@ -4,11 +4,15 @@ import React,{useState} from "react"
 
 
 const NavBar = () => {
-        <div className = 'navbar'>
-            <NavButton href='#home' nome='Home'/>
-            <NavButton href='#servicos' nome='Serviços'/>
-            <NavButton href='#contato' nome='Contato'/>
-        </div>
+    const[menuOpen, setMenuOpen] = useState(false)
+
+        return(
+            <nav id='navbar'>
+            <div className='menu' onClick={() => {
+                setMenuOpen(!menuOpen)
+            }}>
+                <span></span>
+                <span></span>
                 <span></span>
             </div>
                     <section className={menuOpen ? "open" : ""}>
