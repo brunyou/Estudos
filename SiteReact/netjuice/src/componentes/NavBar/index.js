@@ -18,7 +18,7 @@ const NavBar = () => {
                     <section className={menuOpen ? "open" : ""}>
                     <NavButton href='#home' nome='Home' />
                     <NavButton href='#servicos' nome='Serviços' />
-                    <NavButton href='#contato' nome='Contato' />
+                    <NavButton href='#contato' nome='Sobre' />
                     </section>
                 </nav>
     )
