@@ -5,7 +5,7 @@ section.home{
     margin-top: 0px;
 }
 
-.content h2,h1 {
+.content h2,h1,p {
     color: rgb(77, 77, 77);
 }
 
@@ -22,4 +22,18 @@ position: absolute;
 top: 40%;
 left: 50%;
 transform: translate(-50%, -50%);
+}
+
+span{
+transition-duration: 0.5s;
+
+}
+
+span:hover{
+    font-size: 2em;
+    color: linear-gradient(to right,#ffa73c, #ff5d4e);
+    }
+
+section.content p{
+    color: rgb(77, 77, 77);
 }

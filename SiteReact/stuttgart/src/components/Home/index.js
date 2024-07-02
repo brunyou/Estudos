@@ -7,7 +7,7 @@ import bmwLogo from "../../img/bmw2.png"
 import mercedesLogo from "../../img/mercedes2.png"
 import porscheLogo from "../../img/porsche2.png"
 import Servicos from "../Servicos"
-// import Entrada from "../../img/entrada.jpeg"
+
 
 
 

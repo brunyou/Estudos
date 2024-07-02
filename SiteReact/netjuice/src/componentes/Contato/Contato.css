@@ -16,15 +16,19 @@
     font-size: 60px;
     padding-bottom: 50px;
 }
-.contato h1{
+.contato h1,h2{
     padding-top: 6%;
     color: #FFFF;
     margin: 0 20px;
+    display: block;
     
 }
 
+
+
 .info p{
-    margin: 0 20px;
+    margin: 2em 20px;
+
 }
 
 
@@ -53,4 +57,29 @@ section.onda{
   justify-content: center; /* centraliza os itens horizontalmente */
   align-items: center; /* centraliza os itens verticalmente */
   height: 100vh; /* altura total da viewport */
+}
+
+img{
+    float: right;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    right: 0px;
+    top: 0px;
+    border: 10px solid #0069af;
+}
+
+.tecnologias{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin: 2em 2em;
+}
+
+@media (max-width: 729px) {
+    img{
+        width: 100px;
+        height: 100px;
+    }
 }
