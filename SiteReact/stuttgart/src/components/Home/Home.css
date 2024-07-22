@@ -1,6 +1,6 @@
 section#home{
     width: 100%;
-    height: 100vh;
+    height: auto;
     padding-top: 2em; 
     text-align: center;
     background-color: #323a42;

@@ -19,9 +19,10 @@
 .contato h1,h2{
     padding-top: 6%;
     color: #FFFF;
-    margin: 0 20px;
+    margin: auto 20px;
     display: block;
     padding-top: 6%;
+
 }
 
 
@@ -100,4 +101,8 @@ section.onda{
         width: 100px;
         height: 100px;
     }
+}
+
+#tecno{
+    text-align: center;
 }

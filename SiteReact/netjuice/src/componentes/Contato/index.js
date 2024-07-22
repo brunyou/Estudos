@@ -18,7 +18,7 @@ const Contato = () => {
                     Sou apaixonado por UI/UX desde que completei o conteúdo na faculdade, me aprofundei mais após em cursos como Alura, W3Schools entre outros.
                     </p>
                     
-                     <h1>Tecnologias e frameworks:</h1> 
+                     <h1 id='tecno'>Tecnologias e frameworks:</h1> 
                     <section className='tecnologias' data-aos="fade-left">
                         <FontAwesomeIcon icon={faSquareJs} style={{color: "#FFFF",}} size="2xl" />
                         <FontAwesomeIcon icon={faNodeJs} style={{color: "#FFFF",}} size="2xl" />
