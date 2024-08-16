@@ -77,7 +77,7 @@ const Servicos = () => {
                     
                    
                 </section>
-                <Onda id='onda' cor='#0076c5'/>
+                <Onda id='onda' cor='#0283da'/>
             </section>
     )
 }

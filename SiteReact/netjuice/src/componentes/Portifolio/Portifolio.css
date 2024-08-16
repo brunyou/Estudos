@@ -1,0 +1,13 @@
+section.portifolio{
+    background-color:#0283da;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#onda{
+    position: absolute;
+    bottom: 0px;
+}
