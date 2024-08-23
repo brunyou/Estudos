@@ -1,51 +1,56 @@
-section.servicos{
+section.servicos {
     margin-top: 3em;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     backdrop-filter: blur(5px);
     border-radius: 2em;
     background-color: #0000004d;
-    
+    padding-bottom: 0;
 }
 
-section.servicos>h1{
+section.servicos > h1 {
     font-size: 2em;
     color: white;
 }
 
-div.card>p{
+div.card > p {
     color: white;
     font-weight: bolder;
     margin: 1em 2em;
 }
 
-div#servicos{
+div#servicos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 3em;
     background-color: none;
-    
 }
 
-div.card{
+div.card {
     justify-content: center;
     border-radius: 10px;
-    margin: 20px;
-
+    margin: 10px;
 }
 
-div.container{
+div.container {
     display: none;
 }
 
-@media (max-width: 440px){
-    section.servicos{
+@media (max-width: 600px) {
+    section.servicos {
         scale: 0.8;
+        margin-bottom: 3em;
     }
-    div.card{
+    div#servicos {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+    div.card {
         margin: 0.5rem;
+        width: 100%;
     }
 }
-

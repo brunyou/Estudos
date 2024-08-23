@@ -2,15 +2,22 @@ import './App.css';
 import Carousel from './components/Carousel';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
-import slides from "./data/carouselData.json";
+import GoogleReviews from './components/GoogleReviews';
+import Sobre from './components/Sobre';
+import Mapa from './components/Mapa';
+
 
 function App() {
   return (
     <div className="App">
     <NavBar id='navbar'/>
+    <section className='body'>
     <Home/>
-    <Carousel />
-  
+    <Sobre/>
+    <Carousel/>
+    <GoogleReviews/>
+    <Mapa/>
+    </section>
   
     </div>
   );

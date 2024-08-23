@@ -3,7 +3,7 @@
 }
 
 nav{
-    
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,6 +70,7 @@ nav>.menu>span{
 
     #navbar>.menu{
         display: flex;
+        
     }
 
     #navbar {
