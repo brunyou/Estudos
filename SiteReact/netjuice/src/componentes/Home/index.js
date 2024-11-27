@@ -8,7 +8,7 @@ const Home = () =>{
             <section className='content' >
                 <h1 data-aos="fade-left">Olá, tudo bem? <br/>
                 Me chamo Bruno Pereira</h1>
-                <p data-aos="fade-left">Desenvolvedor front-end e DBA </p>
+                <p data-aos="fade-left">Desenvolvedor full-stack e DBA </p>
              
             </section>
              <Onda cor='#0099ff' id="onda"/>
