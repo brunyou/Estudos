@@ -1,0 +1,28 @@
+## Requisitos
+* Node.js 22 ou superior - Conferir: node -v
+
+## Sequencia para criar o projeto
+Criar o arquivo package.
+```
+npm init
+```
+
+Instalar o typescript com a dependência de desenvolvimento
+```
+npm install --save-dev typescript
+```
+
+Criar arquivo tsconfig.json
+```
+npx tsc --init
+```
+
+Compilar os arquivos em TypeScript (-watch para recompilar automaticamente)
+```
+npx tsc -watch 
+```
+
+Executar arquivo JavaScript compilado
+```
+node dist/index.js
+```
